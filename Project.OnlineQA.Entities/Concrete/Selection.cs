@@ -10,7 +10,7 @@ namespace Project.OnlineQA.Entities.Concrete
         public int Id { get; set; }
         public string Description { get; set; }
         public int NumberOfSelection { get; set; }
-        public int QuestionId { get; set; }
+        public int? QuestionId { get; set; }
         public Question Question { get; set; }
         public List<UserSelection> UserSelections { get; set; }
 

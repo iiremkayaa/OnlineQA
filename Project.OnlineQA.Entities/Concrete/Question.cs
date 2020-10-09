@@ -11,7 +11,7 @@ namespace Project.OnlineQA.Entities.Concrete
         public string Description { get; set; }
         public List<Selection> Selections { get; set; }
         public List<Comment> Comments { get; set; }
-        public DateTime PostedTime { get; set; } = DateTime.Now;
+        public DateTime PostedTime { get; set; }
         public int UserId { get; set; }
         public User User { get; set; }
     }
