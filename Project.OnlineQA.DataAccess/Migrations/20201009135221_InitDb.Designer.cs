@@ -9,7 +9,7 @@ using Project.OnlineQA.DataAccess.Concrete.EfCore.Context;
 
 namespace Project.OnlineQA.DataAccess.Migrations
 {
-    [DbContext(typeof(Context))]
+    [DbContext(typeof(Concrete.EfCore.Context.OnlineQADbContext))]
     [Migration("20201009135221_InitDb")]
     partial class InitDb
     {

@@ -8,7 +8,7 @@ using Project.OnlineQA.DataAccess.Concrete.EfCore.Context;
 
 namespace Project.OnlineQA.DataAccess.Migrations
 {
-    [DbContext(typeof(Context))]
+    [DbContext(typeof(Concrete.EfCore.Context.OnlineQADbContext))]
     partial class ContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Project.OnlineQA.DataAccess.Concrete.EfCore.Context
 {
-    public class Context : DbContext
+    public class OnlineQADbContext : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
