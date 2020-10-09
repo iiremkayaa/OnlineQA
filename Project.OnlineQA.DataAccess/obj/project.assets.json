@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Project.OnlineQA.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Project.OnlineQA.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Project.OnlineQA.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Project.OnlineQA.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Project.OnlineQA.Entities/Project.OnlineQA.Entities.csproj",
+      "msbuildProject": "../Project.OnlineQA.Entities/Project.OnlineQA.Entities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Project.OnlineQA.Entities >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Irem\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.DataAccess\\Project.OnlineQA.DataAccess.csproj",
+      "projectName": "Project.OnlineQA.DataAccess",
+      "projectPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.DataAccess\\Project.OnlineQA.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\Irem\\.nuget\\packages\\",
+      "outputPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.DataAccess\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Irem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Entities\\Project.OnlineQA.Entities.csproj": {
+              "projectPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Entities\\Project.OnlineQA.Entities.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
