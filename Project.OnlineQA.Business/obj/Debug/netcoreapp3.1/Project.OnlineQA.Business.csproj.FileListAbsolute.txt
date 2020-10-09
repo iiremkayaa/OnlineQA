@@ -1,0 +1,14 @@
+E:\C#Project\OnlineQA\Project.OnlineQA.Business\obj\Debug\netcoreapp3.1\Project.OnlineQA.Business.csprojAssemblyReference.cache
+E:\C#Project\OnlineQA\Project.OnlineQA.Business\obj\Debug\netcoreapp3.1\Project.OnlineQA.Business.AssemblyInfoInputs.cache
+E:\C#Project\OnlineQA\Project.OnlineQA.Business\obj\Debug\netcoreapp3.1\Project.OnlineQA.Business.AssemblyInfo.cs
+E:\C#Project\OnlineQA\Project.OnlineQA.Business\obj\Debug\netcoreapp3.1\Project.OnlineQA.Business.csproj.CoreCompileInputs.cache
+E:\C#Project\OnlineQA\Project.OnlineQA.Business\bin\Debug\netcoreapp3.1\Project.OnlineQA.Business.deps.json
+E:\C#Project\OnlineQA\Project.OnlineQA.Business\bin\Debug\netcoreapp3.1\Project.OnlineQA.Business.dll
+E:\C#Project\OnlineQA\Project.OnlineQA.Business\bin\Debug\netcoreapp3.1\Project.OnlineQA.Business.pdb
+E:\C#Project\OnlineQA\Project.OnlineQA.Business\bin\Debug\netcoreapp3.1\Project.OnlineQA.DataAccess.dll
+E:\C#Project\OnlineQA\Project.OnlineQA.Business\bin\Debug\netcoreapp3.1\Project.OnlineQA.Entities.dll
+E:\C#Project\OnlineQA\Project.OnlineQA.Business\bin\Debug\netcoreapp3.1\Project.OnlineQA.DataAccess.pdb
+E:\C#Project\OnlineQA\Project.OnlineQA.Business\bin\Debug\netcoreapp3.1\Project.OnlineQA.Entities.pdb
+E:\C#Project\OnlineQA\Project.OnlineQA.Business\obj\Debug\netcoreapp3.1\Project.OnlineQA.Business.csproj.CopyComplete
+E:\C#Project\OnlineQA\Project.OnlineQA.Business\obj\Debug\netcoreapp3.1\Project.OnlineQA.Business.dll
+E:\C#Project\OnlineQA\Project.OnlineQA.Business\obj\Debug\netcoreapp3.1\Project.OnlineQA.Business.pdb

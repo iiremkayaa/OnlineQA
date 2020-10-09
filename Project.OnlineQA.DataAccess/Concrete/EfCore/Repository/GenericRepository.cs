@@ -2,36 +2,53 @@
 using Project.OnlineQA.Entities.Interface;
 using System;
 using System.Collections.Generic;
-using System.Text;
+
 using System.Threading.Tasks;
+using Project.OnlineQA.DataAccess.Concrete.EfCore.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace Project.OnlineQA.DataAccess.Concrete.EfCore.Repository
 {
     public class GenericRepository<T> : IGenericRepository<T> where T:class,ITable,new()
     {
-        public Task AddAsync(T entity)
+        public async Task AddAsync(T entity)
         {
-            throw new NotImplementedException();
+            using var context= new OnlineQADbContext();
+            await context.AddAsync(entity);
+            await context.SaveChangesAsync();
         }
 
-        public Task DeleteAsync(int id)
+        public async Task DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            using var context = new OnlineQADbContext();
+            var entity = await context.Set<T>().FindAsync(id);
+            if (entity != null)
+            {
+                entity = await context.Set<T>().FindAsync(id);
+                context.Set<T>().Remove(entity);
+                await context.SaveChangesAsync();
+            }
+           
         }
 
-        public Task<List<T>> GetAllAsync()
+        public async Task<List<T>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            using var context = new OnlineQADbContext();
+            return await context.Set<T>().ToListAsync();
         }
 
-        public Task<T> GetAsync(int id)
+        public async Task<T> GetAsync(int id)
         {
-            throw new NotImplementedException();
+            using var context = new OnlineQADbContext();
+            return await context.Set<T>().FindAsync(id);
         }
 
-        public Task UpdateAsync(T entity)
+        public async  Task UpdateAsync(T entity)
         {
-            throw new NotImplementedException();
+            using var context = new OnlineQADbContext();
+            context.Update(entity);
+            await context.SaveChangesAsync();
+
         }
     }
 }
