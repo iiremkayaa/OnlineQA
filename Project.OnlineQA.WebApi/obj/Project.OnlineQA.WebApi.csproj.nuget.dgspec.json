@@ -1,0 +1,253 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\C#Project\\OnlineQA\\Project.OnlineQA.WebApi\\Project.OnlineQA.WebApi.csproj": {}
+  },
+  "projects": {
+    "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Business\\Project.OnlineQA.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Business\\Project.OnlineQA.Business.csproj",
+        "projectName": "Project.OnlineQA.Business",
+        "projectPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Business\\Project.OnlineQA.Business.csproj",
+        "packagesPath": "C:\\Users\\Irem\\.nuget\\packages\\",
+        "outputPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Irem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\C#Project\\OnlineQA\\Project.OnlineQA.DataAccess\\Project.OnlineQA.DataAccess.csproj": {
+                "projectPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.DataAccess\\Project.OnlineQA.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\C#Project\\OnlineQA\\Project.OnlineQA.DataAccess\\Project.OnlineQA.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.DataAccess\\Project.OnlineQA.DataAccess.csproj",
+        "projectName": "Project.OnlineQA.DataAccess",
+        "projectPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.DataAccess\\Project.OnlineQA.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Irem\\.nuget\\packages\\",
+        "outputPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Irem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Entities\\Project.OnlineQA.Entities.csproj": {
+                "projectPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Entities\\Project.OnlineQA.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Entities\\Project.OnlineQA.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Entities\\Project.OnlineQA.Entities.csproj",
+        "projectName": "Project.OnlineQA.Entities",
+        "projectPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Entities\\Project.OnlineQA.Entities.csproj",
+        "packagesPath": "C:\\Users\\Irem\\.nuget\\packages\\",
+        "outputPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Irem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\C#Project\\OnlineQA\\Project.OnlineQA.WebApi\\Project.OnlineQA.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.WebApi\\Project.OnlineQA.WebApi.csproj",
+        "projectName": "Project.OnlineQA.WebApi",
+        "projectPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.WebApi\\Project.OnlineQA.WebApi.csproj",
+        "packagesPath": "C:\\Users\\Irem\\.nuget\\packages\\",
+        "outputPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Irem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Business\\Project.OnlineQA.Business.csproj": {
+                "projectPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Business\\Project.OnlineQA.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
