@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Project.OnlineQA.Business.Interface;
+using Project.OnlineQA.Dto.Concrete;
 using Project.OnlineQA.Entities.Concrete;
+using Project.OnlineQA.WebApi.Models;
 
 namespace Project.OnlineQA.WebApi.Controllers
 {
@@ -14,26 +17,42 @@ namespace Project.OnlineQA.WebApi.Controllers
     public class UsersController : ControllerBase
     {
         private readonly IUserService _userService;
-        public UsersController(IUserService userService)
+        private readonly IMapper _mapper;
+        public UsersController(IUserService userService,IMapper mapper)
         {
             _userService = userService;
+            _mapper = mapper;
 
         }
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            return Ok(await _userService.GetAllAsync());
+            return Ok(_mapper.Map<List<UserListModel>>(await _userService.GetAllAsync()));
         }
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            return Ok(await _userService.FindByIdAsync(id));
+            return Ok(_mapper.Map<UserListModel>(await _userService.FindByIdAsync(id)));
         }
-        [HttpPost]
-        public async Task<IActionResult> CreateUser(User user)
+        /*[HttpGet()]
+        public async Task<IActionResult> GetByUsername(string? username)
         {
-            await _userService.AddAsync(user);
-            return Created("", user);
+            if (username == null)
+            {
+                return Ok(_mapper.Map<List<UserListModel>>(await _userService.GetAllAsync()));
+            }
+            else
+            {
+
+            }
+            
+            
+        }*/
+        [HttpPost]
+        public async Task<IActionResult> CreateUser(UserAddDto userAddDto)
+        {
+            await  _userService.AddAsync(_mapper.Map<User>(userAddDto));
+            return Created("", userAddDto);
         }
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateUser(int id,User user)

@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.OnlineQA.Entities", "Project.OnlineQA.Entities\Project.OnlineQA.Entities.csproj", "{7F3AD26D-CDB3-40B8-92AE-5DF876F4E4AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.OnlineQA.DataAccess", "Project.OnlineQA.DataAccess\Project.OnlineQA.DataAccess.csproj", "{41F64A48-3DD2-4C83-8BAF-0D8D4A98C1BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.OnlineQA.DataAccess", "Project.OnlineQA.DataAccess\Project.OnlineQA.DataAccess.csproj", "{41F64A48-3DD2-4C83-8BAF-0D8D4A98C1BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.OnlineQA.Business", "Project.OnlineQA.Business\Project.OnlineQA.Business.csproj", "{2246745A-3E31-4A4D-8CF9-C7DFAC83D50A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.OnlineQA.Business", "Project.OnlineQA.Business\Project.OnlineQA.Business.csproj", "{2246745A-3E31-4A4D-8CF9-C7DFAC83D50A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.OnlineQA.WebApi", "Project.OnlineQA.WebApi\Project.OnlineQA.WebApi.csproj", "{50DE09D4-953A-4E2C-B992-A793C09C8571}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.OnlineQA.WebApi", "Project.OnlineQA.WebApi\Project.OnlineQA.WebApi.csproj", "{50DE09D4-953A-4E2C-B992-A793C09C8571}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.OnlineQA.Dto", "Project.OnlineQA.Dto\Project.OnlineQA.Dto.csproj", "{5DF6B79F-7DF7-4CA5-9EE8-13F01FE99F0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{50DE09D4-953A-4E2C-B992-A793C09C8571}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50DE09D4-953A-4E2C-B992-A793C09C8571}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50DE09D4-953A-4E2C-B992-A793C09C8571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DF6B79F-7DF7-4CA5-9EE8-13F01FE99F0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DF6B79F-7DF7-4CA5-9EE8-13F01FE99F0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DF6B79F-7DF7-4CA5-9EE8-13F01FE99F0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DF6B79F-7DF7-4CA5-9EE8-13F01FE99F0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

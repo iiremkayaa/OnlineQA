@@ -1,0 +1,9 @@
+E:\C#Project\OnlineQA\Project.OnlineQA.Dto\bin\Debug\netcoreapp3.1\Project.OnlineQA.Dto.deps.json
+E:\C#Project\OnlineQA\Project.OnlineQA.Dto\bin\Debug\netcoreapp3.1\Project.OnlineQA.Dto.dll
+E:\C#Project\OnlineQA\Project.OnlineQA.Dto\bin\Debug\netcoreapp3.1\Project.OnlineQA.Dto.pdb
+E:\C#Project\OnlineQA\Project.OnlineQA.Dto\obj\Debug\netcoreapp3.1\Project.OnlineQA.Dto.csprojAssemblyReference.cache
+E:\C#Project\OnlineQA\Project.OnlineQA.Dto\obj\Debug\netcoreapp3.1\Project.OnlineQA.Dto.AssemblyInfoInputs.cache
+E:\C#Project\OnlineQA\Project.OnlineQA.Dto\obj\Debug\netcoreapp3.1\Project.OnlineQA.Dto.AssemblyInfo.cs
+E:\C#Project\OnlineQA\Project.OnlineQA.Dto\obj\Debug\netcoreapp3.1\Project.OnlineQA.Dto.csproj.CoreCompileInputs.cache
+E:\C#Project\OnlineQA\Project.OnlineQA.Dto\obj\Debug\netcoreapp3.1\Project.OnlineQA.Dto.dll
+E:\C#Project\OnlineQA\Project.OnlineQA.Dto\obj\Debug\netcoreapp3.1\Project.OnlineQA.Dto.pdb

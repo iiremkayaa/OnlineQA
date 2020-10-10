@@ -4,6 +4,6 @@ E:\C#Project\OnlineQA\Project.OnlineQA.Entities\bin\Debug\netcoreapp3.1\Project.
 E:\C#Project\OnlineQA\Project.OnlineQA.Entities\obj\Debug\netcoreapp3.1\Project.OnlineQA.Entities.csprojAssemblyReference.cache
 E:\C#Project\OnlineQA\Project.OnlineQA.Entities\obj\Debug\netcoreapp3.1\Project.OnlineQA.Entities.AssemblyInfoInputs.cache
 E:\C#Project\OnlineQA\Project.OnlineQA.Entities\obj\Debug\netcoreapp3.1\Project.OnlineQA.Entities.AssemblyInfo.cs
-E:\C#Project\OnlineQA\Project.OnlineQA.Entities\obj\Debug\netcoreapp3.1\Project.OnlineQA.Entities.csproj.CoreCompileInputs.cache
 E:\C#Project\OnlineQA\Project.OnlineQA.Entities\obj\Debug\netcoreapp3.1\Project.OnlineQA.Entities.dll
 E:\C#Project\OnlineQA\Project.OnlineQA.Entities\obj\Debug\netcoreapp3.1\Project.OnlineQA.Entities.pdb
+E:\C#Project\OnlineQA\Project.OnlineQA.Entities\obj\Debug\netcoreapp3.1\Project.OnlineQA.Entities.csproj.CoreCompileInputs.cache

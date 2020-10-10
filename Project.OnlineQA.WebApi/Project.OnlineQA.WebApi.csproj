@@ -5,7 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Project.OnlineQA.Business\Project.OnlineQA.Business.csproj" />
+    <ProjectReference Include="..\Project.OnlineQA.Dto\Project.OnlineQA.Dto.csproj" />
   </ItemGroup>
 
 
