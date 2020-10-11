@@ -12,7 +12,7 @@ using Project.OnlineQA.WebApi.Models;
 
 namespace Project.OnlineQA.WebApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/questions")]
     [ApiController]
     public class QuestionsController : ControllerBase
     {
@@ -23,34 +23,37 @@ namespace Project.OnlineQA.WebApi.Controllers
             _questionService = questionService;
             _mapper = mapper;
         }
+        
         [HttpGet]
-        public async Task<IActionResult> GetAll()
-        {   
-           return Ok(_mapper.Map<List<QuestionListModel>>(await _questionService.GetAllAsync()));
+        public async Task<IActionResult> GetByParams([FromQuery] int? userId = null)
+        {
+
+            return Ok(_mapper.Map<List<QuestionListModel>>(await _questionService.GetByParams( userId)));
+
         }
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(int id)
+        public async Task<IActionResult> GetById([FromRoute]int id)
         {
             return Ok(_mapper.Map<QuestionListModel>(await _questionService.FindByIdAsync(id)));
         }
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateQuestion(int id, Question question)
+        public async Task<IActionResult> UpdateQuestion([FromRoute] int id, [FromQuery] QuestionUpdateDto questionUpdateDto)
         {
-            if (id != question.Id)
+            if (id != questionUpdateDto.Id)
             {
                 return BadRequest();
             }
-            await _questionService.UpdateAsync(question);
+            await _questionService.UpdateAsync(_mapper.Map<Question>(questionUpdateDto));
             return NoContent();
         }
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteQuestion(int id)
+        public async Task<IActionResult> DeleteQuestion([FromRoute] int id)
         {
             await _questionService.RemoveAsync(id);
             return NoContent();
         }
         [HttpPost]
-        public async Task<IActionResult> CreateQuestion(QuestionAddDto questionAddDto)
+        public async Task<IActionResult> CreateQuestion([FromQuery] QuestionAddDto questionAddDto)
         {
             questionAddDto.PostedTime = DateTime.Now;
             await _questionService.AddAsync(_mapper.Map<Question>(questionAddDto));

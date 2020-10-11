@@ -9,11 +9,10 @@ using Project.OnlineQA.Business.Interface;
 using Project.OnlineQA.Dto.Concrete;
 using Project.OnlineQA.Entities.Concrete;
 using Project.OnlineQA.WebApi.Models;
-using Project.OnlineQA.WebApi.QueryParameters;
 
 namespace Project.OnlineQA.WebApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/users")]
     [ApiController]
     public class UsersController : ControllerBase
     {
@@ -27,36 +26,36 @@ namespace Project.OnlineQA.WebApi.Controllers
         }
         
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(int id)
+        public async Task<IActionResult> GetById([FromRoute]int id)
         {
             return Ok(_mapper.Map<UserListModel>(await _userService.FindByIdAsync(id)));
         }
         
+       
         [HttpGet]
-        public async Task<IActionResult> GetByParams(string username,string name, string lastname,string email)
+        public async Task<IActionResult> GetByParams([FromQuery] string username =null, [FromQuery]  string name=null, [FromQuery]  string lastname=null, [FromQuery]  string email=null)
         {
-            
             return Ok(_mapper.Map<List<UserListModel>>(await _userService.GetByParams(username,name,lastname,email)));
-            
         }
         [HttpPost]
-        public async Task<IActionResult> CreateUser(UserAddDto userAddDto)
+        public async Task<IActionResult> CreateUser([FromQuery] UserAddDto userAddDto)
         {
             await  _userService.AddAsync(_mapper.Map<User>(userAddDto));
             return Created("", userAddDto);
         }
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateUser(int id,User user)
+        public async Task<IActionResult> UpdateUser([FromRoute]int id,[FromQuery] UserUpdateDto userUpdateDto)
         {
-            if (id != user.Id)
+            
+            if (id != userUpdateDto.Id)
             {
-                return BadRequest();
+                return BadRequest(); 
             }
-            await _userService.UpdateAsync(user);
+            await _userService.UpdateAsync(_mapper.Map<User>(userUpdateDto));
             return NoContent();
         }
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteUser(int id)
+        public async Task<IActionResult> DeleteUser([FromRoute] int id)
         {
             await _userService.RemoveAsync(id);
             return NoContent();

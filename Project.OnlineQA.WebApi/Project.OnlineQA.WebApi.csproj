@@ -13,5 +13,9 @@
     <ProjectReference Include="..\Project.OnlineQA.Dto\Project.OnlineQA.Dto.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="QueryParameters\" />
+  </ItemGroup>
+
 
 </Project>

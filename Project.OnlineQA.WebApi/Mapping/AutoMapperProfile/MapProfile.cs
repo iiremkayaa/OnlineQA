@@ -15,6 +15,12 @@ namespace Project.OnlineQA.WebApi.Mapping.AutoMapperProfile
         {
             CreateMap<UserAddDto, User>();
             CreateMap<User, UserAddDto>();
+            CreateMap<UserUpdateDto, User>();
+            CreateMap<User, UserUpdateDto>();
+            CreateMap<CommentUpdateDto, Comment>();
+            CreateMap<Comment, CommentUpdateDto>();
+            CreateMap<QuestionUpdateDto, Question>();
+            CreateMap<Question, QuestionUpdateDto>();
             CreateMap<QuestionAddDto, Question>();
             CreateMap<Question, QuestionAddDto>();
             CreateMap<CommentAddDto, Comment>();

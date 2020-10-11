@@ -12,7 +12,7 @@ using Project.OnlineQA.WebApi.Models;
 
 namespace Project.OnlineQA.WebApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/selections")]
     [ApiController]
     public class SelectionsController : ControllerBase
     {
@@ -23,18 +23,21 @@ namespace Project.OnlineQA.WebApi.Controllers
             _selectionService = selectionService;
             _mapper = mapper;
         }
-        [HttpGet]
-        public async Task<IActionResult> GetAll()
-        {
-            return Ok(_mapper.Map<List<SelectionListModel>>(await _selectionService.GetAllAsync()));
-        }
+        
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(int id)
+        public async Task<IActionResult> GetById([FromRoute]int id)
         {
             return Ok(_mapper.Map<SelectionListModel>(await _selectionService.FindByIdAsync(id)));
         }
+        [HttpGet]
+        public async Task<IActionResult> GetByParams([FromQuery] int? questionId = null)
+        {
+
+            return Ok(_mapper.Map<List<SelectionListModel>>(await _selectionService.GetByParams(questionId)));
+
+        }
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateSelection(int id, Selection selection)
+        public async Task<IActionResult> UpdateSelection([FromRoute]int id, [FromQuery] Selection selection)
         {
             if (id != selection.Id)
             {
@@ -44,13 +47,13 @@ namespace Project.OnlineQA.WebApi.Controllers
             return NoContent();
         }
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteSelection(int id)
+        public async Task<IActionResult> DeleteSelection([FromRoute]int id)
         {
             await _selectionService.RemoveAsync(id);
             return NoContent();
         }
         [HttpPost]
-        public async Task<IActionResult> CreateSelection(SelectionAddDto selectionAddDto)
+        public async Task<IActionResult> CreateSelection([FromQuery] SelectionAddDto selectionAddDto)
         {
             selectionAddDto.NumberOfSelection = 0;
             await _selectionService.AddAsync(_mapper.Map<Selection>(selectionAddDto));
