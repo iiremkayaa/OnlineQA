@@ -68,3 +68,4 @@ E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\bin\Debug\netcoreapp3.1\Project.On
 E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\bin\Debug\netcoreapp3.1\Project.OnlineQA.Dto.pdb
 E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\obj\Debug\netcoreapp3.1\Project.OnlineQA.WebApi.csproj.CoreCompileInputs.cache
 E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\obj\Debug\netcoreapp3.1\Project.OnlineQA.WebApi.MvcApplicationPartsAssemblyInfo.cache
+E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
