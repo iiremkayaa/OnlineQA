@@ -9,6 +9,7 @@ using Project.OnlineQA.Business.Interface;
 using Project.OnlineQA.Dto.Concrete;
 using Project.OnlineQA.Entities.Concrete;
 using Project.OnlineQA.WebApi.Models;
+using Project.OnlineQA.WebApi.QueryParameters;
 
 namespace Project.OnlineQA.WebApi.Controllers
 {
@@ -24,30 +25,20 @@ namespace Project.OnlineQA.WebApi.Controllers
             _mapper = mapper;
 
         }
-        [HttpGet]
-        public async Task<IActionResult> GetAll()
-        {
-            return Ok(_mapper.Map<List<UserListModel>>(await _userService.GetAllAsync()));
-        }
+        
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
             return Ok(_mapper.Map<UserListModel>(await _userService.FindByIdAsync(id)));
         }
-        /*[HttpGet()]
-        public async Task<IActionResult> GetByUsername(string? username)
+        
+        [HttpGet]
+        public async Task<IActionResult> GetByParams(string username,string name, string lastname,string email)
         {
-            if (username == null)
-            {
-                return Ok(_mapper.Map<List<UserListModel>>(await _userService.GetAllAsync()));
-            }
-            else
-            {
-
-            }
             
+            return Ok(_mapper.Map<List<UserListModel>>(await _userService.GetByParams(username,name,lastname,email)));
             
-        }*/
+        }
         [HttpPost]
         public async Task<IActionResult> CreateUser(UserAddDto userAddDto)
         {
