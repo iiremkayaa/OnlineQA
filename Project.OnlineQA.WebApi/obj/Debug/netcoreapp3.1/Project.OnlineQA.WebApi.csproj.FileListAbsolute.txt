@@ -1,8 +1,6 @@
 E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\obj\Debug\netcoreapp3.1\Project.OnlineQA.WebApi.csprojAssemblyReference.cache
 E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\obj\Debug\netcoreapp3.1\Project.OnlineQA.WebApi.AssemblyInfoInputs.cache
 E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\obj\Debug\netcoreapp3.1\Project.OnlineQA.WebApi.AssemblyInfo.cs
-E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\obj\Debug\netcoreapp3.1\Project.OnlineQA.WebApi.csproj.CoreCompileInputs.cache
-E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\obj\Debug\netcoreapp3.1\Project.OnlineQA.WebApi.MvcApplicationPartsAssemblyInfo.cache
 E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
 E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\bin\Debug\netcoreapp3.1\appsettings.json
 E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -64,3 +62,10 @@ E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\obj\Debug\netcoreapp3.1\staticweba
 E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\obj\Debug\netcoreapp3.1\Project.OnlineQA.WebApi.dll
 E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\obj\Debug\netcoreapp3.1\Project.OnlineQA.WebApi.pdb
 E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\obj\Debug\netcoreapp3.1\Project.OnlineQA.WebApi.genruntimeconfig.cache
+E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\bin\Debug\netcoreapp3.1\AutoMapper.dll
+E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\bin\Debug\netcoreapp3.1\Project.OnlineQA.Dto.dll
+E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\bin\Debug\netcoreapp3.1\Project.OnlineQA.Dto.pdb
+E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\obj\Debug\netcoreapp3.1\Project.OnlineQA.WebApi.csproj.CoreCompileInputs.cache
+E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\obj\Debug\netcoreapp3.1\Project.OnlineQA.WebApi.MvcApplicationPartsAssemblyInfo.cache
+E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll

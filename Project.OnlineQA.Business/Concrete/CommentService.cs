@@ -4,6 +4,7 @@ using Project.OnlineQA.Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Project.OnlineQA.Business.Concrete
 {
@@ -13,6 +14,11 @@ namespace Project.OnlineQA.Business.Concrete
         public CommentService(IGenericRepository<Comment> genericRepository, ICommentRepository commentRepository) :base(genericRepository)
         {
             _commentRepository = commentRepository;
+        }
+        public Task<List<Comment>> GetByParams(int? questionId, int? userId)
+        {
+           
+            return _commentRepository.GetByParams(questionId,  userId);
         }
     }
 }

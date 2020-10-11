@@ -4,6 +4,7 @@ using Project.OnlineQA.Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Project.OnlineQA.Business.Concrete
 {
@@ -14,6 +15,11 @@ namespace Project.OnlineQA.Business.Concrete
         {
             _selectionRepository = selectionRepository;
 
+        }
+
+        public async Task<List<Selection>> GetByParams(int? questionId)
+        {
+            return await _selectionRepository.GetByParams(questionId);
         }
     }
 }
