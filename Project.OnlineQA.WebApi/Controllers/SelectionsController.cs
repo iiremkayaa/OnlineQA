@@ -14,7 +14,7 @@ namespace Project.OnlineQA.WebApi.Controllers
 {
     [Route("api/selections")]
     [ApiController]
-    public class SelectionsController : ControllerBase
+    public class SelectionsController : BaseController
     {
         private readonly ISelectionService _selectionService;
         private readonly IMapper _mapper;
