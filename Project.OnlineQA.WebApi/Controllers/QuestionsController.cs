@@ -14,7 +14,7 @@ namespace Project.OnlineQA.WebApi.Controllers
 {
     [Route("api/questions")]
     [ApiController]
-    public class QuestionsController : ControllerBase
+    public class QuestionsController : BaseController
     {
         private readonly IQuestionService _questionService;
         private readonly IMapper _mapper;

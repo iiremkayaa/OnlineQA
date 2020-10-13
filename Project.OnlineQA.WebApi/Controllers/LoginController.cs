@@ -19,7 +19,7 @@ namespace Project.OnlineQA.WebApi.Controllers
 {
     [Route("api/login")]
     [ApiController]
-    public class LoginController : ControllerBase
+    public class LoginController : BaseController
     {
         private readonly IUserService _userService;
         private readonly IMapper _mapper;
@@ -32,7 +32,7 @@ namespace Project.OnlineQA.WebApi.Controllers
 
         }
         [HttpPost]
-        public async Task<IActionResult> Login(string username,string password/*[FromQuery] LoginDto loginDto*/)
+        public async Task<IActionResult> Login(string username,string password)
         {
             User user=await _userService.GetByUserName(username);
             IActionResult response = Unauthorized();
@@ -43,7 +43,7 @@ namespace Project.OnlineQA.WebApi.Controllers
             
             else
             {
-                if (user.Password == password)
+                if (user.Password == ComputeSha256Hash(password))
                 {
                     var tokenStr = GenerateJSONWebToken(user);
                     response = Ok(new { token = tokenStr });

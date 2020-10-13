@@ -14,7 +14,7 @@ namespace Project.OnlineQA.WebApi.Controllers
 {
     [Route("api/comments")]
     [ApiController]
-    public class CommentsController : ControllerBase
+    public class CommentsController : BaseController
     {
         private readonly ICommentService _commentService;
         private readonly IMapper _mapper;

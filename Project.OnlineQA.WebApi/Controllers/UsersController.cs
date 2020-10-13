@@ -15,7 +15,7 @@ namespace Project.OnlineQA.WebApi.Controllers
 {
     [Route("api/users")]
     [ApiController]
-    public class UsersController : ControllerBase
+    public class UsersController : BaseController
     {
         private readonly IUserService _userService;
         private readonly IMapper _mapper;
@@ -25,7 +25,7 @@ namespace Project.OnlineQA.WebApi.Controllers
             _mapper = mapper;
 
         }
-        [Authorize]
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById([FromRoute]int id)
         {
@@ -41,8 +41,19 @@ namespace Project.OnlineQA.WebApi.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateUser([FromQuery] UserAddDto userAddDto)
         {
-            await  _userService.AddAsync(_mapper.Map<User>(userAddDto));
-            return Created("", userAddDto);
+            userAddDto.Password = ComputeSha256Hash(userAddDto.Password);
+            var isExist = await _userService.GetByUserName(userAddDto.UserName);
+            if (isExist == null)
+            {
+                await _userService.AddAsync(_mapper.Map<User>(userAddDto));
+                return Created("", userAddDto);
+            }
+            else
+            {
+                return BadRequest("Username was already taken!");
+            }
+            
+            
         }
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateUser([FromRoute]int id,[FromQuery] UserUpdateDto userUpdateDto)
