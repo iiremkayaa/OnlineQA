@@ -9,10 +9,14 @@ namespace Project.OnlineQA.DataAccess.Concrete.EfCore.Context
 {
     public class OnlineQADbContext : DbContext
     {
+        public OnlineQADbContext()
+        {
+           
+        }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("server=(localdb)\\mssqllocaldb;database=OnlineQA;integrated security=true;");
-
+            optionsBuilder.UseLazyLoadingProxies();
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

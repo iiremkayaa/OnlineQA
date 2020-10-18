@@ -49,7 +49,8 @@ namespace Project.OnlineQA.WebApi
                     };
                 });
             services.AddMvc();
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson(options =>
+                    options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
             services.AddDependencies();
             services.AddAutoMapper(typeof(Startup));
             

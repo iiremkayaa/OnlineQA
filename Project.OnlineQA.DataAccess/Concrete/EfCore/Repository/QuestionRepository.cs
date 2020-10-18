@@ -16,7 +16,7 @@ namespace Project.OnlineQA.DataAccess.Concrete.EfCore.Repository
 
         public async Task<List<Question>> GetByParams(int? userId)
         {
-            using var context = new OnlineQADbContext();
+            var context = new OnlineQADbContext();
             List<Question> questions = new List<Question>();
             if ( userId == null)
             {

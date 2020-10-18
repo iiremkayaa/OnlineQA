@@ -13,8 +13,8 @@ namespace Project.OnlineQA.Entities.Concrete
         public string LastName { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-        public List<Question> Questions { get; set; }
-        public List<Comment> Comments { get; set; }
-        public List<UserSelection> UserSelections { get; set; }
+        virtual public List<Question> Questions { get; set; }
+        virtual public List<Comment> Comments { get; set; }
+        virtual public List<UserSelection> UserSelections { get; set; }
     }
 }
