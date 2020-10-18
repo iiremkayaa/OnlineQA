@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Dto\\Project.OnlineQA.Dto.csproj": {}
+    "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.Dto\\Project.OnlineQA.Dto.csproj": {}
   },
   "projects": {
-    "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Dto\\Project.OnlineQA.Dto.csproj": {
+    "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.Dto\\Project.OnlineQA.Dto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Dto\\Project.OnlineQA.Dto.csproj",
+        "projectUniqueName": "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.Dto\\Project.OnlineQA.Dto.csproj",
         "projectName": "Project.OnlineQA.Dto",
-        "projectPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Dto\\Project.OnlineQA.Dto.csproj",
+        "projectPath": "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.Dto\\Project.OnlineQA.Dto.csproj",
         "packagesPath": "C:\\Users\\Irem\\.nuget\\packages\\",
-        "outputPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Dto\\obj\\",
+        "outputPath": "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.Dto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Irem\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#Project\\OnlineQA\\Project.OnlineQA.DataAccess\\Project.OnlineQA.DataAccess.csproj": {}
+    "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.DataAccess\\Project.OnlineQA.DataAccess.csproj": {}
   },
   "projects": {
-    "E:\\C#Project\\OnlineQA\\Project.OnlineQA.DataAccess\\Project.OnlineQA.DataAccess.csproj": {
+    "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.DataAccess\\Project.OnlineQA.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.DataAccess\\Project.OnlineQA.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.DataAccess\\Project.OnlineQA.DataAccess.csproj",
         "projectName": "Project.OnlineQA.DataAccess",
-        "projectPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.DataAccess\\Project.OnlineQA.DataAccess.csproj",
+        "projectPath": "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.DataAccess\\Project.OnlineQA.DataAccess.csproj",
         "packagesPath": "C:\\Users\\Irem\\.nuget\\packages\\",
-        "outputPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Irem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Entities\\Project.OnlineQA.Entities.csproj": {
-                "projectPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Entities\\Project.OnlineQA.Entities.csproj"
+              "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.Entities\\Project.OnlineQA.Entities.csproj": {
+                "projectPath": "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.Entities\\Project.OnlineQA.Entities.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Entities\\Project.OnlineQA.Entities.csproj": {
+    "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.Entities\\Project.OnlineQA.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Entities\\Project.OnlineQA.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.Entities\\Project.OnlineQA.Entities.csproj",
         "projectName": "Project.OnlineQA.Entities",
-        "projectPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Entities\\Project.OnlineQA.Entities.csproj",
+        "projectPath": "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.Entities\\Project.OnlineQA.Entities.csproj",
         "packagesPath": "C:\\Users\\Irem\\.nuget\\packages\\",
-        "outputPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Entities\\obj\\",
+        "outputPath": "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Irem\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -7407,11 +7407,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Business\\Project.OnlineQA.Business.csproj",
+      "projectUniqueName": "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.Business\\Project.OnlineQA.Business.csproj",
       "projectName": "Project.OnlineQA.Business",
-      "projectPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Business\\Project.OnlineQA.Business.csproj",
+      "projectPath": "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.Business\\Project.OnlineQA.Business.csproj",
       "packagesPath": "C:\\Users\\Irem\\.nuget\\packages\\",
-      "outputPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Business\\obj\\",
+      "outputPath": "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Irem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7427,8 +7427,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\C#Project\\OnlineQA\\Project.OnlineQA.DataAccess\\Project.OnlineQA.DataAccess.csproj": {
-              "projectPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.DataAccess\\Project.OnlineQA.DataAccess.csproj"
+            "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.DataAccess\\Project.OnlineQA.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.DataAccess\\Project.OnlineQA.DataAccess.csproj"
             }
           }
         }
