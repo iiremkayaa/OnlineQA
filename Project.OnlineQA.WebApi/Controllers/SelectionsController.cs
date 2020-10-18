@@ -30,7 +30,7 @@ namespace Project.OnlineQA.WebApi.Controllers
             return Ok(_mapper.Map<SelectionListModel>(await _selectionService.FindByIdAsync(id)));
         }
         [HttpGet]
-        public async Task<IActionResult> GetByParams([FromQuery] int? questionId = null)
+        public async Task<IActionResult> GetByParams([FromQuery] int? questionId)
         {
 
             return Ok(_mapper.Map<List<SelectionListModel>>(await _selectionService.GetByParams(questionId)));

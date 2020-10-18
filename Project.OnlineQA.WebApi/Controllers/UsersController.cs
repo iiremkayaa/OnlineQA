@@ -34,7 +34,7 @@ namespace Project.OnlineQA.WebApi.Controllers
         
        
         [HttpGet]
-        public async Task<IActionResult> GetByParams([FromQuery] string username =null, [FromQuery]  string name=null, [FromQuery]  string lastname=null, [FromQuery]  string email=null)
+        public async Task<IActionResult> GetByParams([FromQuery] string username , [FromQuery]  string name, [FromQuery]  string lastname, [FromQuery]  string email)
         {
             return Ok(_mapper.Map<List<UserListModel>>(await _userService.GetByParams(username,name,lastname,email)));
         }

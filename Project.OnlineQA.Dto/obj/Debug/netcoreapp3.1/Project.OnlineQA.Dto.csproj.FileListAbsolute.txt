@@ -7,3 +7,12 @@ E:\C#Project\OnlineQA\Project.OnlineQA.Dto\obj\Debug\netcoreapp3.1\Project.Onlin
 E:\C#Project\OnlineQA\Project.OnlineQA.Dto\obj\Debug\netcoreapp3.1\Project.OnlineQA.Dto.csproj.CoreCompileInputs.cache
 E:\C#Project\OnlineQA\Project.OnlineQA.Dto\obj\Debug\netcoreapp3.1\Project.OnlineQA.Dto.dll
 E:\C#Project\OnlineQA\Project.OnlineQA.Dto\obj\Debug\netcoreapp3.1\Project.OnlineQA.Dto.pdb
+C:\Users\Irem\Documents\GitHub\OnlineQA\Project.OnlineQA.Dto\bin\Debug\netcoreapp3.1\Project.OnlineQA.Dto.deps.json
+C:\Users\Irem\Documents\GitHub\OnlineQA\Project.OnlineQA.Dto\bin\Debug\netcoreapp3.1\Project.OnlineQA.Dto.dll
+C:\Users\Irem\Documents\GitHub\OnlineQA\Project.OnlineQA.Dto\bin\Debug\netcoreapp3.1\Project.OnlineQA.Dto.pdb
+C:\Users\Irem\Documents\GitHub\OnlineQA\Project.OnlineQA.Dto\obj\Debug\netcoreapp3.1\Project.OnlineQA.Dto.csprojAssemblyReference.cache
+C:\Users\Irem\Documents\GitHub\OnlineQA\Project.OnlineQA.Dto\obj\Debug\netcoreapp3.1\Project.OnlineQA.Dto.AssemblyInfoInputs.cache
+C:\Users\Irem\Documents\GitHub\OnlineQA\Project.OnlineQA.Dto\obj\Debug\netcoreapp3.1\Project.OnlineQA.Dto.AssemblyInfo.cs
+C:\Users\Irem\Documents\GitHub\OnlineQA\Project.OnlineQA.Dto\obj\Debug\netcoreapp3.1\Project.OnlineQA.Dto.csproj.CoreCompileInputs.cache
+C:\Users\Irem\Documents\GitHub\OnlineQA\Project.OnlineQA.Dto\obj\Debug\netcoreapp3.1\Project.OnlineQA.Dto.dll
+C:\Users\Irem\Documents\GitHub\OnlineQA\Project.OnlineQA.Dto\obj\Debug\netcoreapp3.1\Project.OnlineQA.Dto.pdb

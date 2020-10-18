@@ -7526,11 +7526,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.WebApi\\Project.OnlineQA.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.WebApi\\Project.OnlineQA.WebApi.csproj",
       "projectName": "Project.OnlineQA.WebApi",
-      "projectPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.WebApi\\Project.OnlineQA.WebApi.csproj",
+      "projectPath": "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.WebApi\\Project.OnlineQA.WebApi.csproj",
       "packagesPath": "C:\\Users\\Irem\\.nuget\\packages\\",
-      "outputPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Irem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7546,11 +7546,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Business\\Project.OnlineQA.Business.csproj": {
-              "projectPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Business\\Project.OnlineQA.Business.csproj"
+            "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.Business\\Project.OnlineQA.Business.csproj": {
+              "projectPath": "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.Business\\Project.OnlineQA.Business.csproj"
             },
-            "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Dto\\Project.OnlineQA.Dto.csproj": {
-              "projectPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Dto\\Project.OnlineQA.Dto.csproj"
+            "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.Dto\\Project.OnlineQA.Dto.csproj": {
+              "projectPath": "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.Dto\\Project.OnlineQA.Dto.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oWk+rRbk4BqlN6UrWnZ7gHnek/TYju+1y17DiLiAfyLStGvRlNlgOSC18kI5TdvKLaD+hEyQOo+V1raq7F3big==",
+  "dgSpecHash": "fy2OaI3gYTSwlAktVkkQQzpSRXc8cXhxA/A/2cTvR2nJv0O/G3Nh3MdvZKXmkbWjj4O5p/2SzFQ8hb6sIuuGow==",
   "success": true,
-  "projectFilePath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.WebApi\\Project.OnlineQA.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.WebApi\\Project.OnlineQA.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Irem\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\Irem\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",

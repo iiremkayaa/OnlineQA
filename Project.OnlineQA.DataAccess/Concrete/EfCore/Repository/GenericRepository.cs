@@ -13,7 +13,7 @@ namespace Project.OnlineQA.DataAccess.Concrete.EfCore.Repository
     {
         public async Task AddAsync(T entity)
         {
-            var context= new OnlineQADbContext();
+            using var context= new OnlineQADbContext();
             await context.AddAsync(entity);
             await context.SaveChangesAsync();
         }
@@ -34,7 +34,7 @@ namespace Project.OnlineQA.DataAccess.Concrete.EfCore.Repository
         public async Task<List<T>> GetAllAsync()
         {
             using var context = new OnlineQADbContext();
-            return await context.Set<T>().ToListAsync();
+            return await context.Set<T>().AsNoTracking().ToListAsync();
         }
 
         public async Task<T> GetAsync(int id)

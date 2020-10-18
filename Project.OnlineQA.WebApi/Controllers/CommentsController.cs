@@ -52,9 +52,8 @@ namespace Project.OnlineQA.WebApi.Controllers
             return Created("", commentAddDto);
         }
         [HttpGet]
-        public async Task<IActionResult> GetByParams([FromQuery] int? questionId=null, [FromQuery] int? userId=null)
+        public async Task<IActionResult> GetByParams([FromQuery] int? questionId, [FromQuery] int? userId)
         {
-         
             return Ok(_mapper.Map<List<CommentListModel>>(await _commentService.GetByParams(questionId,userId)));
 
         }

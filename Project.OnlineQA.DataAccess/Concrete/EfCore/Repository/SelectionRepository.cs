@@ -14,15 +14,15 @@ namespace Project.OnlineQA.DataAccess.Concrete.EfCore.Repository
     {
         public async Task<List<Selection>> GetByParams(int? questionId)
         {
-            var context = new OnlineQADbContext();
+            using var context = new OnlineQADbContext();
             List<Selection> selections = new List<Selection>();
             if (questionId == null)
             {
-                selections = await context.Selections.ToListAsync();
+                selections = await context.Selections.Include(a => a.Question).AsNoTracking().ToListAsync();
             }
             else
             {
-                selections = await context.Selections.Where(I => I.QuestionId == questionId).ToListAsync();
+                selections = await context.Selections.Include(a => a.Question).AsNoTracking().Where(I => I.QuestionId == questionId).ToListAsync();
             }
 
             return selections;

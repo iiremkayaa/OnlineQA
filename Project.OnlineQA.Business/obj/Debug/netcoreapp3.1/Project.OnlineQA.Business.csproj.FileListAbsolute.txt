@@ -12,3 +12,17 @@ E:\C#Project\OnlineQA\Project.OnlineQA.Business\bin\Debug\netcoreapp3.1\Project.
 E:\C#Project\OnlineQA\Project.OnlineQA.Business\obj\Debug\netcoreapp3.1\Project.OnlineQA.Business.csproj.CopyComplete
 E:\C#Project\OnlineQA\Project.OnlineQA.Business\obj\Debug\netcoreapp3.1\Project.OnlineQA.Business.dll
 E:\C#Project\OnlineQA\Project.OnlineQA.Business\obj\Debug\netcoreapp3.1\Project.OnlineQA.Business.pdb
+C:\Users\Irem\Documents\GitHub\OnlineQA\Project.OnlineQA.Business\bin\Debug\netcoreapp3.1\Project.OnlineQA.Business.deps.json
+C:\Users\Irem\Documents\GitHub\OnlineQA\Project.OnlineQA.Business\bin\Debug\netcoreapp3.1\Project.OnlineQA.Business.dll
+C:\Users\Irem\Documents\GitHub\OnlineQA\Project.OnlineQA.Business\bin\Debug\netcoreapp3.1\Project.OnlineQA.Business.pdb
+C:\Users\Irem\Documents\GitHub\OnlineQA\Project.OnlineQA.Business\bin\Debug\netcoreapp3.1\Project.OnlineQA.DataAccess.dll
+C:\Users\Irem\Documents\GitHub\OnlineQA\Project.OnlineQA.Business\bin\Debug\netcoreapp3.1\Project.OnlineQA.Entities.dll
+C:\Users\Irem\Documents\GitHub\OnlineQA\Project.OnlineQA.Business\bin\Debug\netcoreapp3.1\Project.OnlineQA.DataAccess.pdb
+C:\Users\Irem\Documents\GitHub\OnlineQA\Project.OnlineQA.Business\bin\Debug\netcoreapp3.1\Project.OnlineQA.Entities.pdb
+C:\Users\Irem\Documents\GitHub\OnlineQA\Project.OnlineQA.Business\obj\Debug\netcoreapp3.1\Project.OnlineQA.Business.csprojAssemblyReference.cache
+C:\Users\Irem\Documents\GitHub\OnlineQA\Project.OnlineQA.Business\obj\Debug\netcoreapp3.1\Project.OnlineQA.Business.AssemblyInfoInputs.cache
+C:\Users\Irem\Documents\GitHub\OnlineQA\Project.OnlineQA.Business\obj\Debug\netcoreapp3.1\Project.OnlineQA.Business.AssemblyInfo.cs
+C:\Users\Irem\Documents\GitHub\OnlineQA\Project.OnlineQA.Business\obj\Debug\netcoreapp3.1\Project.OnlineQA.Business.csproj.CoreCompileInputs.cache
+C:\Users\Irem\Documents\GitHub\OnlineQA\Project.OnlineQA.Business\obj\Debug\netcoreapp3.1\Project.OnlineQA.Business.csproj.CopyComplete
+C:\Users\Irem\Documents\GitHub\OnlineQA\Project.OnlineQA.Business\obj\Debug\netcoreapp3.1\Project.OnlineQA.Business.dll
+C:\Users\Irem\Documents\GitHub\OnlineQA\Project.OnlineQA.Business\obj\Debug\netcoreapp3.1\Project.OnlineQA.Business.pdb

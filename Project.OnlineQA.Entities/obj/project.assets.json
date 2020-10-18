@@ -288,11 +288,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Entities\\Project.OnlineQA.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.Entities\\Project.OnlineQA.Entities.csproj",
       "projectName": "Project.OnlineQA.Entities",
-      "projectPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Entities\\Project.OnlineQA.Entities.csproj",
+      "projectPath": "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.Entities\\Project.OnlineQA.Entities.csproj",
       "packagesPath": "C:\\Users\\Irem\\.nuget\\packages\\",
-      "outputPath": "E:\\C#Project\\OnlineQA\\Project.OnlineQA.Entities\\obj\\",
+      "outputPath": "C:\\Users\\Irem\\Documents\\GitHub\\OnlineQA\\Project.OnlineQA.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Irem\\AppData\\Roaming\\NuGet\\NuGet.Config",
