@@ -37,7 +37,6 @@ namespace Project.OnlineQA.WebApi.Mapping.AutoMapperProfile
             CreateMap<CommentListModel, Comment>();
 
 
-
         }
     }
 }

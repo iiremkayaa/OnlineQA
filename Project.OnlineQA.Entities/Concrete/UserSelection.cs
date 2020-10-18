@@ -9,9 +9,9 @@ namespace Project.OnlineQA.Entities.Concrete
     {
         public int Id { get; set; }
         public int? UserId { get; set; }
-        public User User { get; set; }
+        virtual public User User { get; set; }
 
         public int? SelectionId { get; set; }
-        public Selection Selection { get; set; }
+        virtual public Selection Selection { get; set; }
     }
 }

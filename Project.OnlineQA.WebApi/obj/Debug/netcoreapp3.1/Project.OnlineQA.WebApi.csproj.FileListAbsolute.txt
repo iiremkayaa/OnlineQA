@@ -66,6 +66,11 @@ E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\bin\Debug\netcoreapp3.1\AutoMapper
 E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\bin\Debug\netcoreapp3.1\Project.OnlineQA.Dto.dll
 E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\bin\Debug\netcoreapp3.1\Project.OnlineQA.Dto.pdb
+E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\bin\Debug\netcoreapp3.1\Castle.Core.dll
+E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\obj\Debug\netcoreapp3.1\Project.OnlineQA.WebApi.csproj.CoreCompileInputs.cache
 E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\obj\Debug\netcoreapp3.1\Project.OnlineQA.WebApi.MvcApplicationPartsAssemblyInfo.cache
-E:\C#Project\OnlineQA\Project.OnlineQA.WebApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll

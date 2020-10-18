@@ -27,7 +27,6 @@ namespace Project.OnlineQA.WebApi.Controllers
         [HttpGet]
         public async Task<IActionResult> GetByParams([FromQuery] int? userId = null)
         {
-
             return Ok(_mapper.Map<List<QuestionListModel>>(await _questionService.GetByParams( userId)));
 
         }

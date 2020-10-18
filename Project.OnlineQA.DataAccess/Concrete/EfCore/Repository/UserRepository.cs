@@ -14,7 +14,7 @@ namespace Project.OnlineQA.DataAccess.Concrete.EfCore.Repository
     {
         public async Task<List<User>> GetByParams(string username, string name, string lastname,string email)
         {
-            using var context = new OnlineQADbContext();
+            var context = new OnlineQADbContext();
             List<User> users = new List<User>();
             if(username==null && name==null && lastname==null && email == null)
             {

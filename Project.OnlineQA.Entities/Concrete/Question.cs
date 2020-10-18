@@ -9,10 +9,10 @@ namespace Project.OnlineQA.Entities.Concrete
     {
         public int Id { get; set; }
         public string Description { get; set; }
-        public List<Selection> Selections { get; set; }
-        public List<Comment> Comments { get; set; }
+        virtual public List<Selection> Selections { get; set; }
+        virtual public List<Comment> Comments { get; set; }
         public DateTime PostedTime { get; set; }
         public int UserId { get; set; }
-        public User User { get; set; }
+        virtual public User User { get; set; }
     }
 }

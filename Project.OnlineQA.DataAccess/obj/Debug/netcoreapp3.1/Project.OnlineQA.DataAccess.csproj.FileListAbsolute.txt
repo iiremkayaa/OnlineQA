@@ -8,8 +8,8 @@ E:\C#Project\OnlineQA\Project.OnlineQA.DataAccess\bin\Debug\netcoreapp3.1\Projec
 E:\C#Project\OnlineQA\Project.OnlineQA.DataAccess\bin\Debug\netcoreapp3.1\Project.OnlineQA.DataAccess.dll
 E:\C#Project\OnlineQA\Project.OnlineQA.DataAccess\bin\Debug\netcoreapp3.1\Project.OnlineQA.DataAccess.pdb
 E:\C#Project\OnlineQA\Project.OnlineQA.DataAccess\bin\Debug\netcoreapp3.1\Project.OnlineQA.Entities.pdb
-E:\C#Project\OnlineQA\Project.OnlineQA.DataAccess\obj\Debug\netcoreapp3.1\Project.OnlineQA.DataAccess.csproj.CoreCompileInputs.cache
 E:\C#Project\OnlineQA\Project.OnlineQA.DataAccess\obj\Debug\netcoreapp3.1\Project.OnlineQA.DataAccess.csproj.CopyComplete
 E:\C#Project\OnlineQA\Project.OnlineQA.DataAccess\obj\Debug\netcoreapp3.1\Project.OnlineQA.DataAccess.dll
 E:\C#Project\OnlineQA\Project.OnlineQA.DataAccess\obj\Debug\netcoreapp3.1\Project.OnlineQA.DataAccess.pdb
 E:\C#Project\OnlineQA\Project.OnlineQA.DataAccess\obj\Debug\netcoreapp3.1\Project.OnlineQA.DataAccess.genruntimeconfig.cache
+E:\C#Project\OnlineQA\Project.OnlineQA.DataAccess\obj\Debug\netcoreapp3.1\Project.OnlineQA.DataAccess.csproj.CoreCompileInputs.cache
