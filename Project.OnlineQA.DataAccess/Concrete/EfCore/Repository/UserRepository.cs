@@ -42,7 +42,7 @@ namespace Project.OnlineQA.DataAccess.Concrete.EfCore.Repository
         public async Task<User> GetByUserName(string userName)
         {
             using var context = new OnlineQADbContext();
-            return await  context.Users.AsNoTracking().Where(I => I.UserName == userName).FirstOrDefaultAsync();
+            return await  context.Users.AsNoTracking().FirstOrDefaultAsync(I => I.UserName == userName);
         }
     }
 }

@@ -15,23 +15,25 @@ namespace Project.OnlineQA.DataAccess.Concrete.EfCore.Repository
         public async Task<List<Comment>> GetByParams(int? questionId, int? userId)
         {
             using var context = new OnlineQADbContext();
-            List<Comment> users = new List<Comment>();
-            
+            IQueryable<Comment> comments =context.Comments;
+
             if (questionId ==null && userId ==null )
             {
-                users = await context.Comments.Include(a => a.Question).Include(a => a.User).AsNoTracking().ToListAsync();
+                comments = comments.Include(a => a.Question).Include(a => a.User).AsNoTracking();
             }
             if (questionId != null)
             {
-                users = await context.Comments.Include(a => a.Question).Include(a => a.User).AsNoTracking().Where(I => I.QuestionId == questionId).ToListAsync();
+                comments = comments.Include(a => a.Question).Include(a => a.User).AsNoTracking().Where(I => I.QuestionId == questionId);
             }
             if (userId != null)
             {
-                users = await context.Comments.Include(a => a.Question).Include(a => a.User).AsNoTracking().Where(I => I.UserId == userId).ToListAsync();
+                comments = comments.Include(a => a.Question).Include(a => a.User).AsNoTracking().Where(I => I.UserId == userId);
             }
             
-            
-            return users;
+
+
+
+            return await comments.ToListAsync();
         }
     }
 }
